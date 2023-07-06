@@ -1,0 +1,8 @@
+{
+	"geode": "1.0.0-beta.18",
+	"version": "v1.0.0",
+	"id": "qinx.texture_loader",
+	"name": "Texture Loader",
+	"developer": "Qinx",
+	"description": "A mod to easily change texture packs"
+}
