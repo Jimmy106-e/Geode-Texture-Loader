@@ -57,7 +57,8 @@ public:
 			[](auto, bool btn2) {
 				if (btn2) {
 					//open MenuLayer
-					CCDirector::sharedDirector()->popToRootScene();
+					//CCDirector::sharedDirector()->popToRootScene();
+                    MenuLayer::scene(1);
 				}
 			}
 		);
