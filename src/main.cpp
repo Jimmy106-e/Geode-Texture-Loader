@@ -58,7 +58,8 @@ public:
 				if (btn2) {
 					//open MenuLayer
 					//CCDirector::sharedDirector()->popToRootScene();
-                    MenuLayer::scene(1);
+                    auto scene = MenuLayer::scene(false);
+                    CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(.5f, scene));
 				}
 			}
 		);
